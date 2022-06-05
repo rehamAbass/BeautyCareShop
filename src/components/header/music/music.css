@@ -1,0 +1,26 @@
+.myAudio {}
+
+.btnAudio {
+    /* margin-top: 15px; */
+    /* margin-left: 40px; */
+    width:  140px;
+    height: 140px;
+ position:fixed;
+ margin-left: 40%;
+ margin-top: 22%;
+    /* font-family: cursive; */
+    /* font-weight: 500; */
+    /* font-style: italic; */
+    color: rgba(135, 150, 186,0.4);
+    /* color:black; */
+    /* text-shadow:  2px 2px 2px 2px red;; */
+    border-radius: 90%;
+    /* border-color: aqua; */
+    /* background-color: rgba(159, 219, 99, 0.521); */
+    /* box-shadow: 4px 3px 4px rgba(183, 247, 247, 0.623); */
+}
+
+.btnAudio:hover {
+    transform: scale(1.5);
+    box-shadow: 10px 10px 10px rgb(217, 255, 0);
+}
