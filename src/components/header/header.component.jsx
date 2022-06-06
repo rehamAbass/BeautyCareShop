@@ -13,7 +13,7 @@ const Header = ({counter, handleCart}) => {
                      handleCart(false)}}
             />
             <h4 className='title' >
-                <marquee direction='left' loop='10' >Fatima Beauty Care Shop</marquee>
+                <marquee direction='left' loop='2' >Fatima Beauty Care Shop</marquee>
             </h4>
             <CartIcon 
             counter={counter}

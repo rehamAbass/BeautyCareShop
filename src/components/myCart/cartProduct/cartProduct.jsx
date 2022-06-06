@@ -11,10 +11,15 @@ const Card = ({ product ,addProduct,deleteProduct, decreaseProduct}) => {
         <div
             className='card-container'
             key={id}>
-            <h1 style={{fontSize:'xx-large'}}>{name}</h1>
+                <h6 
+                style={{fontFamily:'Helvetica',margin:'2px', fontSize:'large'}}>
+                Price : { price}$
+            </h6>
+            <h5 style={{fontSize:'large'}}>{name}
 
-            <h1>Price : { price}$ 
-           
+        
+            </h5>
+           <span>
             <BsPatchPlusFill className='plusBtn'
                 onClick={() => {
                     addProduct(product);
@@ -30,14 +35,13 @@ const Card = ({ product ,addProduct,deleteProduct, decreaseProduct}) => {
                     deleteProduct(product);
                      }}
                  />
-            </h1>
+          </span>
               <img
                 alt={name}
                 src={image_link}
                 style={{ width: '200px' , height:'220px' , alignSelf:'center'}}
             />
-            <a href={product_link} style={{color:'blue'}}> for more details</a>
-         </div>
+                 </div>
     )
 }
 export default Card;

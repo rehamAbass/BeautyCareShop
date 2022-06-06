@@ -1,11 +1,12 @@
 .myCart{
-         width: 1000px;
-    margin-left:5%;
+    width:900px;
+    max-width: 900px;
+    margin-left:3%;
     display: grid;
-    grid-template-Columns:  10fr 10fr;
-    grid-gap: 5%;
-    margin-top: 5%;
-    margin-bottom:35%;
+    grid-template-Columns:  1fr 1fr 1fr ;
+    grid-gap: 0.4%;
+    margin-top: 4%;
+    margin-bottom:30%;
 }
 
 .alert1 {
@@ -38,13 +39,18 @@
      
 }
 .paybtn{
-    border-style:groove;
-    border: 14px rgb(0, 108, 14);
+    cursor:pointer;
+    border-style:ridge;
+    border: 20 rgb(0, 0, 0);
     width :700px;
-    /* height:60px; */
-    background-color:rgb(176, 249, 176);
-    color :'white';
-    font-size:large;
+    height:50px;
+    background-color:rgb(205, 205, 205);
+   font-family:serif;
+    font-size:x-large;
     font-weight:800;
-    border-radius:1%;
+    border-radius:2%;
+}
+
+.paybtn:hover{
+    background-color:aliceblue;
 }

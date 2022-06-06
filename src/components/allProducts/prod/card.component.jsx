@@ -10,8 +10,8 @@ const Card = ({ product ,addProduct}) => {
         <div
             className='card'
             key={id}>
-            <h2 style={{fontSize:'xx-large'}}>{name}</h2>
-            <h3>Price : { price}$ 
+            <h3 style={{fontSize:'x-large'}}>{name}</h3>
+            <h3 style={{fontFamily:'Helvetica Neue'}}>Price : { price}$ 
             <BsPatchPlusFill className='plusbBtn'
                 onClick={() => {
                     addProduct(product);}}
@@ -24,8 +24,8 @@ const Card = ({ product ,addProduct}) => {
             />
          
             <p>{description}</p>
-            <p  style={{  fontFamily:'Dancing Script',
-             fontSize:'x-small'}} >
+            <p  style={{  fontFamily:'Helvetica Neue',
+             fontSize:'small'}} >
             {product_colors.length > 0 ? ' Available Colors :' :''}
             
             {product_colors.length > 0 && product_colors.map(
