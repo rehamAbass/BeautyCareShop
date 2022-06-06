@@ -9,11 +9,11 @@ const Header = ({counter, handleCart}) => {
         <div className='headClass'>
             <img className='myImg' src={fatme} alt='me'
                 onClick={() => { 
-                    alert('🥰welcome to my Beauty Shop🥰');
+                  
                      handleCart(false)}}
             />
             <h4 className='title' >
-                Fatima Beauty Care Shop
+                <marquee direction='left' loop='10' >Fatima Beauty Care Shop</marquee>
             </h4>
             <CartIcon 
             counter={counter}

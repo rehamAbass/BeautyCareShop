@@ -1,28 +1,24 @@
-// import { Schema as _Schema, model } from 'mongoose'
-// const Schema = _Schema
+const mongoose = require("mongoose");
+const Schema = mongoose.Schema;
 
+const productSchema = new Schema({
+    id: { type:Number , required : true},
+    name: { type:String},
+    brand: {type: String},
+    price: {type : Number},
+    image_link: {type: String},
+    product_link: { type: String}, 
+    description: {type: String},
+    rating: { type: Number },
+    product_type: {type : String} ,
+    product_api_url: {type: String},
+    product_colors: { type: Array },
+    amount: {type : Number}
+});
 
-// const productSchema = new Schema({
-//     id: { type:Number , required : true},
-//     name: { type:String , required:true},
-//     brand: {type: String},
-//     price: {type : Number, required: true},
-//     image_link: {type: String, required:true},
-    
-//     product_link: { type: URL }, 
-    
-//     description: {type: String},
-//     rating: { type: Number },
-//     product_type: {type : String} ,
-
-//     product_api_url: {type: URL},
-    
-//     product_colors: { type: Array.format },
-
-//     amount: {type : Number , required: true}
-// })
-// const Product = model("product", productSchema)
+const Product = mongoose.model("Product", productSchema);
+module.exports = Product;
 
 
 
-// export default Product;
+
