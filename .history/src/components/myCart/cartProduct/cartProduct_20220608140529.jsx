@@ -11,11 +11,11 @@ const Card = ({ product ,addProduct,deleteProduct, decreaseProduct}) => {
         <div
             className='card-container'
             key={id}>
-             <span className='amount'>{amount}</span>
                 <h6 
-                style={{margin:'1px', fontSize:'x-large'}}>
+                style={{fontFamily:'Helvetica',margin:'2px', fontSize:'large'}}>
                 Price : { price}$
-                 
+                  <span style={{color:'blue'}}
+            >{amount}</span>
             </h6>
             <h5 style={{fontSize:'x-large'}}>{name}
             </h5>

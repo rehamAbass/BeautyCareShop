@@ -6,18 +6,18 @@ import {TiDeleteOutline} from 'react-icons/ti'
 const Card = ({ product ,addProduct,deleteProduct, decreaseProduct}) => {
     const { id, name,  price,
         image_link, product_link, 
-        rating ,amount} = product;
+        rating } = product;
     return (
         <div
             className='card-container'
             key={id}>
-             <span className='amount'>{amount}</span>
                 <h6 
-                style={{margin:'1px', fontSize:'x-large'}}>
+                style={{fontFamily:'Helvetica',margin:'2px', fontSize:'large'}}>
                 Price : { price}$
-                 
             </h6>
             <h5 style={{fontSize:'x-large'}}>{name}
+
+        
             </h5>
            <span>
             <BsPatchPlusFill className='plusBtn'

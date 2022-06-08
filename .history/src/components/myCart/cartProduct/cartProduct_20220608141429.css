@@ -57,9 +57,9 @@ font-size:xx-large;
 .amount{
   margin-top: 0px;
   margin-left:80%;
-  background-color: rgba(162, 162, 162, 0.155);
-  color:rgb(0, 0, 0);
-  border-radius: 50%;
+  background-color: rgba(8, 164, 255, 0.155);
+  color:rgb(0, 0, 116);
+  border-radius: 40%;
   font-weight:bolder;
   font-size: xx-large;
 }

@@ -13,7 +13,7 @@ const Card = ({ product ,addProduct,deleteProduct, decreaseProduct}) => {
             key={id}>
              <span className='amount'>{amount}</span>
                 <h6 
-                style={{margin:'1px', fontSize:'x-large'}}>
+                style={{margin:'2px', fontSize:'large'}}>
                 Price : { price}$
                  
             </h6>
