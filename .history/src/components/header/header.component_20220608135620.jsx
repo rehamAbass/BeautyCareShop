@@ -11,7 +11,7 @@ const Header = ({counter,imgs, handleCart}) => {
         <div className='headClass'>
         <div className='imgs'>
             {imgs.map((link, i) => (
-                    (i>=19 && i <29)&&<img 
+                    (i>=20 && i <30)&&<img 
                     style={{transform:'scale(1)' ,  margin:'0px'}}
                     key={i}
                     src={link} alt='prod' />
