@@ -33,6 +33,7 @@ const Music = () => {
         {(flagPlaying === true) &&
             <MdPause
                 className='btnAudio'
+                style={{color:'black'}}
                 onClick={() => {
                     if (flagPlaying === true) {
                         handleClick(false);

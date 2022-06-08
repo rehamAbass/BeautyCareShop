@@ -140,6 +140,7 @@ const HandleCart =(val)=>{
   setSum(0);
   setCartProducts([]);
   setCartCounter(0);
+  
  }
  //=========================================================================================
   return (
