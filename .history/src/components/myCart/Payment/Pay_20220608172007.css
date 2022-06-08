@@ -1,0 +1,13 @@
+.inputt{
+    margin:5px ;
+    padding:2px;
+    cursor:pointer;
+}
+
+#cc-form{
+    width: 500px;
+    position:relative;
+     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+}

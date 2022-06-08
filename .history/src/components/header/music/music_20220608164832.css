@@ -1,0 +1,17 @@
+.myAudio {}
+
+.btnAudio {
+    width:  50px;
+    height: 50px;
+    position:fixed;
+    margin-left: 45.7%;
+    margin-top: 362px;
+    color:rgb(0, 0, 0);
+    border-radius: 90%;
+}
+
+.btnAudio:hover {
+   color : rgb(8, 0, 165);
+    transform: scale(1.125);
+    box-shadow: 1px 1px 10px 1px  rgb(160, 162, 169);
+}
