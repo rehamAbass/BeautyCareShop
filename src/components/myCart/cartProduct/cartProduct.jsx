@@ -15,7 +15,7 @@ const Card = ({ product ,addProduct,deleteProduct, decreaseProduct}) => {
                 style={{fontFamily:'Helvetica',margin:'2px', fontSize:'large'}}>
                 Price : { price}$
             </h6>
-            <h5 style={{fontSize:'large'}}>{name}
+            <h5 style={{fontSize:'x-large'}}>{name}
 
         
             </h5>

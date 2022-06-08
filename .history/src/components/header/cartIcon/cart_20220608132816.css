@@ -1,0 +1,36 @@
+.cartIcon{
+     position:fixed;
+    width:55px;
+    height:55px;
+    color:rgb(0, 0, 0);
+    margin-top:1%;
+    /* transform: translateZ(-1);
+    transition: transform 0.25s ease-out; */
+}
+.cartIcon:hover{
+    transform:scale(1.12);
+    color:rgb(8, 0, 165);
+}
+.cart-container{
+    position:fixed;
+    margin-left: 93%;
+    margin-top: 270px;
+}
+.cart-container:hover{
+    color:rgb(0, 0, 0);
+ /* transform: scale(1); */
+ cursor: pointer;
+}
+.counter{
+    font-size:large;
+    font-family:'Courier New', Courier, monospace;
+  
+    color:rgb(8, 0, 165);
+    font-weight:bolder;
+    text-align: right;
+      transform: scale(1.4);
+    text-shadow: 2px 2px 12px 12px rgb(0, 0, 0);
+    position: fixed;
+    margin-left: 4%;
+    margin-top:0.8%;
+}

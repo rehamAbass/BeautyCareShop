@@ -1,7 +1,7 @@
 .card-container {
     display: flex;
     flex-direction: column;
-       border: 2px solid rgba(0, 0, 0, 0.914);
+       border: 1px solid rgba(0, 0, 0, 0.914);
     border-radius: 3%;
     padding: 10px;
     margin-bottom: 10px;
@@ -11,18 +11,13 @@
     max-height: 500px;
     cursor: pointer;
     backface-visibility: visible;
-    transform: translateZ(1);
-    /* transition: transform 0.1s ease-out; */
-    /* background-color: rgba(204, 210, 208, 0.463); */
-    /* font-size: small; */
     transform: scale(0.8);
     font-family: 'Dancing Script' !important;
 }
 .card-container:hover {
-    transform: scale(1);
+    transform: scale(0.9);
     background-color:white;
-   
-    box-shadow: 1px 2px 25px 1px rgba(5, 12, 23, 1)
+    box-shadow: 1px 1px 25px 1px rgba(5, 12, 23, 1)
    }
 
 /* ******************************************************************************************* */

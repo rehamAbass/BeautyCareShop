@@ -13,8 +13,8 @@ const SearchBox = ({ className, placeholder, searchHandler, group }) => {
                 placeholder='Search Products'
                 onChange={searchHandler}
                 style={{
-                    fontFamily: 'Dancing Script', fontStyle:'unset', fontStretch: 'extra-expanded'
-                , fontSize:'xx-large', borderRadius:'20%'}}
+                     fontStyle:'unset', fontStretch: 'extra-expanded'
+                , fontSize:'large', borderRadius:'15%'}}
             />
             {group.length === 0 ?
                 <div className='alert2'> NO Products with this prefix </div> : ''}
