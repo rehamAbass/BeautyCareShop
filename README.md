@@ -1,4 +1,4 @@
-# steps to run the code :
+## steps to run the code
 
 ## install the code from github (.zip) >> extract the directory
 
@@ -6,7 +6,7 @@
 
 ## add  this extension >>    >>   MongoDB for VS Code
 
-# >> Enable it in your vcs
+### >> Enable it in your vcs
 
 ## connect to the mongoDB server ->> localhost:27017
 
@@ -16,8 +16,8 @@
 
 ## press : npm start  
 
-# >> web gonna open on :  <http://localhost:3000/>
+### >> web gonna open on :  <http://localhost:3000/>
 
 ## press : node server.js
 
-# >> the database gonna open on : <http://localhost:8000/products/>
+### >> the database gonna open on : <http://localhost:8000/products/>
