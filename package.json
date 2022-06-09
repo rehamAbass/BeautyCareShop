@@ -4,15 +4,21 @@
   "private": true,
   "dependencies": {
     "axios": "^0.27.2",
+    "card": "^2.5.4",
     "card-validator": "^8.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "mongodb": "^4.7.0",
     "mongoose": "^6.3.5",
+    "nodemon": "^2.0.16",
     "path": "^0.12.7",
     "react": "^18.1.0",
     "react-credit-card": "^0.20.0",
     "react-dom": "^18.1.0",
     "react-icons": "^4.3.1",
     "react-native-credit-card-input": "^0.3.1",
+    "react-plastic": "^1.1.1",
     "react-scripts": "^0.9.5",
     "reactjs-credit-card": "^1.0.6",
     "request": "^2.88.2",
@@ -41,5 +47,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "",
+  "main": "reportWebVitals.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rehamAbass/BeautyCareShop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rehamAbass/BeautyCareShop/issues"
+  },
+  "homepage": "https://github.com/rehamAbass/BeautyCareShop#readme"
 }
